@@ -21,7 +21,7 @@
 import { io } from "socket.io-client";
 
 // Connect to backend Socket.IO server
-const socket = io("http://127.0.0.1:5050", {
+const socket = io("https://roadresq-backkend.onrender.com", {
   withCredentials: true,
   transports: ["websocket", "polling"], // ensure fallback
 });
