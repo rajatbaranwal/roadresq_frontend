@@ -1,12 +1,38 @@
-# React + Vite
+RoadResQ RoadResQ is a full‑stack web application for real‑time roadside assistance management. It allows users to request help, track service providers, and manage emergency assistance efficiently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currently, I am working on live chat and live location features, which will allow users to communicate with service providers and share their exact location in real time.
 
-Currently, two official plugins are available:
+Features ✅ Current Features Users can request roadside assistance in emergencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Service providers can view and accept requests.
 
-## Expanding the ESLint configuration
+Request tracking and status updates in real‑time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Authentication system for users and service providers.
+
+MongoDB database to manage users, requests, and service logs.
+
+🛠 Work in Progress Live chat between user and service provider using Socket.io.
+
+Live location tracking using HTML5 Geolocation API + Leaflet + OpenStreetMap.
+
+Notification system for updates on request status.
+
+🚀 Future Enhancements Optimized service allocation to the nearest available provider.
+
+Admin dashboard to monitor all requests and services.
+
+Push notifications for instant updates.
+
+Tech Stack Frontend: ReactJS, HTML, CSS, JavaScript
+
+Backend: NodeJS, ExpressJS
+
+Database: MongoDB (Atlas)
+
+Real‑Time Communication: Socket.io (for chat)
+
+Live Location: HTML5 Geolocation API + Leaflet (React‑Leaflet) + OpenStreetMap
+
+Other Tools: GitHub, Vercel, Render, Postman
+
